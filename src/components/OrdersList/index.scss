@@ -1,0 +1,33 @@
+.orders-list {
+  &__item {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 15px;
+
+    &-toggle {
+      width: 30px;
+      height: 30px;
+      border: none;
+      font-size: 25px;
+      font-weight: bold;
+      background: none;
+      outline: none;
+    }
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__more {
+    margin-top: 10px;
+    padding-left: 30px;
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+  }
+}
